@@ -71,7 +71,7 @@
             console.log("prediction", prediction)
             const maxValue = predictionArray.indexOf(Math.max(...predictionArray))
             const result = classname[String(maxValue)]
-            document.getElementById("result").setAttribute('src', `./results/thumb_${result}.png`)
+            document.getElementById("result").setAttribute('src', `./thumb_${result}.png`)
         }
     </script>
 </html>
